@@ -64,13 +64,13 @@ python tep_anomaly_detector.py   --input TEP_Train_Test.csv   --output TEP_Train
 - Meaningful feature attribution.
 
 ## How to run
-Activate .venv:
+- Activate .venv:
 .venv\Scripts\Activate
 
-Requirements:
+- Requirements:
 pip install -r requirements.txt
 
-Then run:
+- Then run:
 python src/main.py --input data/TEP_Train_Test.csv --output outputs/TEP_with_scores.csv
 This produces outputs/TEP_with_scores.csv with the 8 new columns.
 
