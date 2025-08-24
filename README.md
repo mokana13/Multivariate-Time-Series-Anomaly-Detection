@@ -27,13 +27,6 @@ The solution follows the Hackathon specification exactly:
 - Python 3.10+
 - Packages: `pandas`, `numpy`, `scikit-learn`
 
-(Optional: `reportlab` if you want to regenerate the outline PDF)
-
-### Run
-```bash
-python tep_anomaly_detector.py   --input TEP_Train_Test.csv   --output TEP_Train_Test_with_scores.csv   --timestamp-col Time   --train-start "2004-01-01 00:00"   --train-end   "2004-01-05 23:59"   --analysis-start "2004-01-06 00:00"   --analysis-end   "2004-01-10 07:59"   --expected-freq T
-```
-
 ### Output
 - All original columns.
 - `Abnormality_score` (0–100).
