@@ -64,6 +64,9 @@ python tep_anomaly_detector.py   --input TEP_Train_Test.csv   --output TEP_Train
 - Meaningful feature attribution.
 
 ## How to run
+Activate .venv:
+.venv\Scripts\Activate
+
 Requirements:
 pip install -r requirements.txt
 
