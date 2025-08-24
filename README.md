@@ -57,8 +57,10 @@ The solution follows the Hackathon specification exactly:
 - Meaningful feature attribution.
 
 ## How to run
-- Activate .venv:
-.venv\Scripts\Activate
+- Create virtual environment
+  python -m venv venv
+- Activate venv:
+  venv\Scripts\Activate
 
 - Requirements:
 pip install -r requirements.txt
