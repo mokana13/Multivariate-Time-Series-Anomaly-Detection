@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Multivariate-Time-Series-Anomaly-Detection
-=======
+
 
 # Multivariate Time Series Anomaly Detection (Hackathon Submission)
 
